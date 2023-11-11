@@ -1,0 +1,8 @@
+<article *ngIf="registro()">
+    <app-imagen [url]="registro().image" [name]="registro().title"></app-imagen>
+    <div>
+        <h3>{{title()}}</h3>
+        <p>{{registro().description}}</p>
+        <p>{{registro().price}}</p>
+    </div>
+</article>

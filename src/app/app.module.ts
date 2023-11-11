@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ImagenComponent } from './atoms/imagen/imagen.component';
+import { CardComponent } from './molecules/card/card.component';
 
 @NgModule({
   declarations: [
